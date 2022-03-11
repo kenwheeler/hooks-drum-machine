@@ -53,13 +53,13 @@ const config = {
 };
 
 const initialStepState = {
-  Kick: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  Sub1: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  Sub2: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  Snare: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  Clap: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  HiHat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-  OpenHiHat: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  Kick: new Array(16).fill(0),
+  Sub1: new Array(16).fill(0),
+  Sub2: new Array(16).fill(0),
+  Snare: new Array(16).fill(0),
+  Clap: new Array(16).fill(0),
+  HiHat: new Array(16).fill(0),
+  OpenHiHat: new Array(16).fill(0),
 };
 
 export default function DrumMachine() {
